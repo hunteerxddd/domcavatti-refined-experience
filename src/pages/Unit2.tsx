@@ -2,7 +2,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { MapPin, Clock } from "lucide-react";
+import { MapPin, Clock, Phone } from "lucide-react";
 
 const Unit2 = () => {
   const services = {
@@ -129,30 +129,59 @@ const Unit2 = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="bg-card border-border p-6 md:p-8">
-              <div className="flex items-start space-x-3 mb-6">
-                <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                <div>
-                  <h3 className="font-semibold text-foreground mb-2">
-                    Endereço
-                  </h3>
-                  <p className="text-muted-foreground text-sm">
-                    Rua Goiânia, 234, Loja 4 rua do bar dos meninos
-                    <br />
-                    Itapuã, Vila Velha, ES - 29101-780
-                  </p>
+              <h2 className="text-2xl font-bold gradient-heading mb-6">
+                Informações de Contato
+              </h2>
+              
+              <div className="space-y-6">
+                {/* Endereço */}
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                    <MapPin className="w-5 h-5 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-foreground mb-1 text-sm md:text-base">
+                      📍 Endereço
+                    </h3>
+                    <p className="text-muted-foreground text-sm leading-relaxed">
+                      Rua Goiânia, 234, Loja 4 rua do bar dos meninos<br />
+                      Itapuã, Vila Velha, ES - 29101-780
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div className="flex items-start space-x-3">
-                <Clock className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                <div>
-                  <h3 className="font-semibold text-foreground mb-2">
-                    Horário
-                  </h3>
-                  <p className="text-muted-foreground text-sm">
-                    Segunda a Sábado: 9h - 19h
-                    <br />
-                    Domingo: Fechado
-                  </p>
+
+                {/* Telefone */}
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                    <Phone className="w-5 h-5 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-foreground mb-1 text-sm md:text-base">
+                      📞 Telefone
+                    </h3>
+                    <a 
+                      href="tel:+5527996284485"
+                      className="text-muted-foreground hover:text-primary transition-colors text-sm"
+                    >
+                      (27) 99628-4485
+                    </a>
+                  </div>
+                </div>
+
+                {/* Horário */}
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                    <Clock className="w-5 h-5 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-foreground mb-1 text-sm md:text-base">
+                      🕒 Horário de Funcionamento
+                    </h3>
+                    <p className="text-muted-foreground text-sm leading-relaxed">
+                      Segunda a Sábado: 9h - 19h<br />
+                      Domingo: Fechado
+                    </p>
+                  </div>
                 </div>
               </div>
             </Card>
