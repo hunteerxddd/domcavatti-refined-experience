@@ -34,36 +34,42 @@ const Index = () => {
                   backgroundImage: "url(https://i.imgur.com/L0i20kW.png)",
                 }}
               >
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/60 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-2xl font-bold text-white mb-1">
+                  <h3 className="text-2xl md:text-3xl font-bold gradient-heading mb-1">
                     UNIDADE 1: ITAPUÃ
                   </h3>
-                  <p className="text-white/80 text-xs mb-3">
+                  <p className="text-white/70 text-xs mb-3 font-medium">
                     Rua Curitiba
                   </p>
-                  <p className="text-white/90 text-sm mb-4 font-medium">
+                  <p className="text-white text-sm md:text-base mb-4 font-semibold">
                     A Origem. Onde tudo começou.
                   </p>
                   
-                  <div className="space-y-2 mb-4 text-white/90">
-                    <div className="flex items-center text-xs">
-                      <MapPin className="w-3.5 h-3.5 mr-2 flex-shrink-0" />
-                      <span>Rua Curitiba, 735 - Itapuã, Vila Velha</span>
+                  <div className="bg-black/40 backdrop-blur-sm rounded-lg p-3 mb-4 space-y-2.5 border border-primary/20">
+                    <div className="flex items-center text-sm text-white">
+                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center mr-3 flex-shrink-0">
+                        <MapPin className="w-4 h-4 text-primary" />
+                      </div>
+                      <span className="font-medium">Rua Curitiba, 735 - Itapuã, Vila Velha</span>
                     </div>
-                    <div className="flex items-center text-xs">
-                      <Phone className="w-3.5 h-3.5 mr-2 flex-shrink-0" />
-                      <span>(27) 99628-4485</span>
+                    <div className="flex items-center text-sm text-white">
+                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center mr-3 flex-shrink-0">
+                        <Phone className="w-4 h-4 text-primary" />
+                      </div>
+                      <span className="font-medium">(27) 99628-4485</span>
                     </div>
-                    <div className="flex items-center text-xs">
-                      <Clock className="w-3.5 h-3.5 mr-2 flex-shrink-0" />
-                      <span>Seg-Sáb: 09-19h | Dom: Fechado</span>
+                    <div className="flex items-center text-sm text-white">
+                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center mr-3 flex-shrink-0">
+                        <Clock className="w-4 h-4 text-primary" />
+                      </div>
+                      <span className="font-medium">Seg-Sáb: 09-19h | Dom: Fechado</span>
                     </div>
                   </div>
 
                   <Button
                     asChild
-                    className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90"
+                    className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-base font-semibold"
                   >
                     <Link to="/unidade-1">Ver Serviços e Equipe</Link>
                   </Button>
@@ -79,36 +85,42 @@ const Index = () => {
                   backgroundImage: "url(https://i.imgur.com/oECLqVZ.png)",
                 }}
               >
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/60 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-2xl font-bold text-white mb-1">
+                  <h3 className="text-2xl md:text-3xl font-bold gradient-heading mb-1">
                     UNIDADE 2: ITAPUÃ
                   </h3>
-                  <p className="text-white/80 text-xs mb-3">
+                  <p className="text-white/70 text-xs mb-3 font-medium">
                     Rua Goiana
                   </p>
-                  <p className="text-white/90 text-sm mb-4 font-medium">
+                  <p className="text-white text-sm md:text-base mb-4 font-semibold">
                     Estilo e Sofisticação.
                   </p>
                   
-                  <div className="space-y-2 mb-4 text-white/90">
-                    <div className="flex items-center text-xs">
-                      <MapPin className="w-3.5 h-3.5 mr-2 flex-shrink-0" />
-                      <span>Rua Goiânia, 234 - Itapuã, Vila Velha</span>
+                  <div className="bg-black/40 backdrop-blur-sm rounded-lg p-3 mb-4 space-y-2.5 border border-primary/20">
+                    <div className="flex items-center text-sm text-white">
+                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center mr-3 flex-shrink-0">
+                        <MapPin className="w-4 h-4 text-primary" />
+                      </div>
+                      <span className="font-medium">Rua Goiânia, 234 - Itapuã, Vila Velha</span>
                     </div>
-                    <div className="flex items-center text-xs">
-                      <Phone className="w-3.5 h-3.5 mr-2 flex-shrink-0" />
-                      <span>(27) 99628-4485</span>
+                    <div className="flex items-center text-sm text-white">
+                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center mr-3 flex-shrink-0">
+                        <Phone className="w-4 h-4 text-primary" />
+                      </div>
+                      <span className="font-medium">(27) 99628-4485</span>
                     </div>
-                    <div className="flex items-center text-xs">
-                      <Clock className="w-3.5 h-3.5 mr-2 flex-shrink-0" />
-                      <span>Seg-Sáb: 09-19h | Dom: Fechado</span>
+                    <div className="flex items-center text-sm text-white">
+                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center mr-3 flex-shrink-0">
+                        <Clock className="w-4 h-4 text-primary" />
+                      </div>
+                      <span className="font-medium">Seg-Sáb: 09-19h | Dom: Fechado</span>
                     </div>
                   </div>
 
                   <Button
                     asChild
-                    className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90"
+                    className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-base font-semibold"
                   >
                     <Link to="/unidade-2">Ver Serviços e Equipe</Link>
                   </Button>
@@ -124,36 +136,42 @@ const Index = () => {
                   backgroundImage: "url(https://i.imgur.com/RaIsp9r.png)",
                 }}
               >
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/60 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-2xl font-bold text-white mb-1">
+                  <h3 className="text-2xl md:text-3xl font-bold gradient-heading mb-1">
                     UNIDADE 3: ITAPARICA
                   </h3>
-                  <p className="text-white/80 text-xs mb-3">
+                  <p className="text-white/70 text-xs mb-3 font-medium">
                     Av. Muqui
                   </p>
-                  <p className="text-white/90 text-sm mb-4 font-medium">
+                  <p className="text-white text-sm md:text-base mb-4 font-semibold">
                     Excelência e Tradição.
                   </p>
                   
-                  <div className="space-y-2 mb-4 text-white/90">
-                    <div className="flex items-center text-xs">
-                      <MapPin className="w-3.5 h-3.5 mr-2 flex-shrink-0" />
-                      <span>Avenida Muqui, 805 - Itaparica, Vila Velha</span>
+                  <div className="bg-black/40 backdrop-blur-sm rounded-lg p-3 mb-4 space-y-2.5 border border-primary/20">
+                    <div className="flex items-center text-sm text-white">
+                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center mr-3 flex-shrink-0">
+                        <MapPin className="w-4 h-4 text-primary" />
+                      </div>
+                      <span className="font-medium">Avenida Muqui, 805 - Itaparica, Vila Velha</span>
                     </div>
-                    <div className="flex items-center text-xs">
-                      <Phone className="w-3.5 h-3.5 mr-2 flex-shrink-0" />
-                      <span>(27) 99628-4485</span>
+                    <div className="flex items-center text-sm text-white">
+                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center mr-3 flex-shrink-0">
+                        <Phone className="w-4 h-4 text-primary" />
+                      </div>
+                      <span className="font-medium">(27) 99628-4485</span>
                     </div>
-                    <div className="flex items-center text-xs">
-                      <Clock className="w-3.5 h-3.5 mr-2 flex-shrink-0" />
-                      <span>Seg-Sáb: 09-19h | Dom: Fechado</span>
+                    <div className="flex items-center text-sm text-white">
+                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center mr-3 flex-shrink-0">
+                        <Clock className="w-4 h-4 text-primary" />
+                      </div>
+                      <span className="font-medium">Seg-Sáb: 09-19h | Dom: Fechado</span>
                     </div>
                   </div>
 
                   <Button
                     asChild
-                    className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90"
+                    className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-base font-semibold"
                   >
                     <Link to="/unidade-3">Ver Serviços e Equipe</Link>
                   </Button>
