@@ -3,6 +3,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { MapPin, Phone, Clock } from "lucide-react";
 
 const Index = () => {
   return (
@@ -33,19 +34,38 @@ const Index = () => {
                   backgroundImage: "url(https://i.imgur.com/L0i20kW.png)",
                 }}
               >
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-2xl font-bold text-white mb-2">
-                    UNIDADE 1
+                  <h3 className="text-2xl font-bold text-white mb-1">
+                    UNIDADE 1: ITAPUÃ
                   </h3>
-                  <p className="text-white/90 text-sm mb-4">
-                    Itapuã (Rua Curitiba)
+                  <p className="text-white/80 text-xs mb-3">
+                    Rua Curitiba
                   </p>
+                  <p className="text-white/90 text-sm mb-4 font-medium">
+                    A Origem. Onde tudo começou.
+                  </p>
+                  
+                  <div className="space-y-2 mb-4 text-white/90">
+                    <div className="flex items-center text-xs">
+                      <MapPin className="w-3.5 h-3.5 mr-2 flex-shrink-0" />
+                      <span>Rua Curitiba, 735 - Itapuã, Vila Velha</span>
+                    </div>
+                    <div className="flex items-center text-xs">
+                      <Phone className="w-3.5 h-3.5 mr-2 flex-shrink-0" />
+                      <span>(27) 99628-4485</span>
+                    </div>
+                    <div className="flex items-center text-xs">
+                      <Clock className="w-3.5 h-3.5 mr-2 flex-shrink-0" />
+                      <span>Seg-Sáb: 09-19h | Dom: Fechado</span>
+                    </div>
+                  </div>
+
                   <Button
                     asChild
                     className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90"
                   >
-                    <Link to="/unidade-1">Agendar Horário</Link>
+                    <Link to="/unidade-1">Ver Serviços e Equipe</Link>
                   </Button>
                 </div>
               </div>
@@ -59,19 +79,38 @@ const Index = () => {
                   backgroundImage: "url(https://i.imgur.com/oECLqVZ.png)",
                 }}
               >
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-2xl font-bold text-white mb-2">
-                    UNIDADE 2
+                  <h3 className="text-2xl font-bold text-white mb-1">
+                    UNIDADE 2: ITAPUÃ
                   </h3>
-                  <p className="text-white/90 text-sm mb-4">
-                    Itapuã (Rua Goiana)
+                  <p className="text-white/80 text-xs mb-3">
+                    Rua Goiana
                   </p>
+                  <p className="text-white/90 text-sm mb-4 font-medium">
+                    Estilo e Sofisticação.
+                  </p>
+                  
+                  <div className="space-y-2 mb-4 text-white/90">
+                    <div className="flex items-center text-xs">
+                      <MapPin className="w-3.5 h-3.5 mr-2 flex-shrink-0" />
+                      <span>Rua Goiânia, 234 - Itapuã, Vila Velha</span>
+                    </div>
+                    <div className="flex items-center text-xs">
+                      <Phone className="w-3.5 h-3.5 mr-2 flex-shrink-0" />
+                      <span>(27) 99628-4485</span>
+                    </div>
+                    <div className="flex items-center text-xs">
+                      <Clock className="w-3.5 h-3.5 mr-2 flex-shrink-0" />
+                      <span>Seg-Sáb: 09-19h | Dom: Fechado</span>
+                    </div>
+                  </div>
+
                   <Button
                     asChild
                     className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90"
                   >
-                    <Link to="/unidade-2">Agendar Horário</Link>
+                    <Link to="/unidade-2">Ver Serviços e Equipe</Link>
                   </Button>
                 </div>
               </div>
@@ -85,19 +124,38 @@ const Index = () => {
                   backgroundImage: "url(https://i.imgur.com/RaIsp9r.png)",
                 }}
               >
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-2xl font-bold text-white mb-2">
-                    UNIDADE 3
+                  <h3 className="text-2xl font-bold text-white mb-1">
+                    UNIDADE 3: ITAPARICA
                   </h3>
-                  <p className="text-white/90 text-sm mb-4">
-                    Itaparica (Av. Muqui)
+                  <p className="text-white/80 text-xs mb-3">
+                    Av. Muqui
                   </p>
+                  <p className="text-white/90 text-sm mb-4 font-medium">
+                    Excelência e Tradição.
+                  </p>
+                  
+                  <div className="space-y-2 mb-4 text-white/90">
+                    <div className="flex items-center text-xs">
+                      <MapPin className="w-3.5 h-3.5 mr-2 flex-shrink-0" />
+                      <span>Avenida Muqui, 805 - Itaparica, Vila Velha</span>
+                    </div>
+                    <div className="flex items-center text-xs">
+                      <Phone className="w-3.5 h-3.5 mr-2 flex-shrink-0" />
+                      <span>(27) 99628-4485</span>
+                    </div>
+                    <div className="flex items-center text-xs">
+                      <Clock className="w-3.5 h-3.5 mr-2 flex-shrink-0" />
+                      <span>Seg-Sáb: 09-19h | Dom: Fechado</span>
+                    </div>
+                  </div>
+
                   <Button
                     asChild
                     className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90"
                   >
-                    <Link to="/unidade-3">Agendar Horário</Link>
+                    <Link to="/unidade-3">Ver Serviços e Equipe</Link>
                   </Button>
                 </div>
               </div>
