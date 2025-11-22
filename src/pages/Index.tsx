@@ -29,39 +29,39 @@ const Index = () => {
             {/* Unit 1 */}
             <Card className="bg-card border-border overflow-hidden hover-lift group">
               <div
-                className="h-80 bg-cover bg-facade relative"
+                className="h-[450px] md:h-[500px] bg-cover bg-center relative"
                 style={{
                   backgroundImage: "url(https://i.imgur.com/L0i20kW.png)",
                 }}
               >
-                <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/60 to-transparent" />
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-2xl md:text-3xl font-bold gradient-heading mb-1">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 p-4 md:p-6">
+                  <h3 className="text-xl md:text-2xl font-bold gradient-heading mb-1 leading-tight">
                     UNIDADE 1: ITAPUÃ
                   </h3>
-                  <p className="text-white/70 text-xs mb-3 font-medium">
+                  <p className="text-white/70 text-xs mb-2 font-medium">
                     Rua Curitiba
                   </p>
-                  <p className="text-white text-sm md:text-base mb-4 font-semibold">
+                  <p className="text-white text-xs md:text-sm mb-3 font-semibold">
                     A Origem. Onde tudo começou.
                   </p>
                   
-                  <div className="bg-black/40 backdrop-blur-sm rounded-lg p-3 mb-4 space-y-2.5 border border-primary/20">
-                    <div className="flex items-center text-sm text-white">
-                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center mr-3 flex-shrink-0">
-                        <MapPin className="w-4 h-4 text-primary" />
+                  <div className="bg-black/50 backdrop-blur-sm rounded-lg p-2.5 md:p-3 mb-3 space-y-2 border border-primary/20">
+                    <div className="flex items-center text-xs md:text-sm text-white">
+                      <div className="w-7 h-7 rounded-full bg-primary/20 flex items-center justify-center mr-2 flex-shrink-0">
+                        <MapPin className="w-3.5 h-3.5 text-primary" />
                       </div>
                       <span className="font-medium">Rua Curitiba, 735 - Itapuã, Vila Velha</span>
                     </div>
-                    <div className="flex items-center text-sm text-white">
-                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center mr-3 flex-shrink-0">
-                        <Phone className="w-4 h-4 text-primary" />
+                    <div className="flex items-center text-xs md:text-sm text-white">
+                      <div className="w-7 h-7 rounded-full bg-primary/20 flex items-center justify-center mr-2 flex-shrink-0">
+                        <Phone className="w-3.5 h-3.5 text-primary" />
                       </div>
                       <span className="font-medium">(27) 99628-4485</span>
                     </div>
-                    <div className="flex items-center text-sm text-white">
-                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center mr-3 flex-shrink-0">
-                        <Clock className="w-4 h-4 text-primary" />
+                    <div className="flex items-center text-xs md:text-sm text-white">
+                      <div className="w-7 h-7 rounded-full bg-primary/20 flex items-center justify-center mr-2 flex-shrink-0">
+                        <Clock className="w-3.5 h-3.5 text-primary" />
                       </div>
                       <span className="font-medium">Seg-Sáb: 09-19h | Dom: Fechado</span>
                     </div>
@@ -69,9 +69,9 @@ const Index = () => {
 
                   <Button
                     asChild
-                    className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-base font-semibold"
+                    className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-sm md:text-base font-semibold"
                   >
-                    <Link to="/unidade-1">Ver Serviços e Equipe</Link>
+                    <Link to="/unidade-1">Agendar Horário</Link>
                   </Button>
                 </div>
               </div>
@@ -80,39 +80,39 @@ const Index = () => {
             {/* Unit 2 */}
             <Card className="bg-card border-border overflow-hidden hover-lift group">
               <div
-                className="h-80 bg-cover bg-facade relative"
+                className="h-[450px] md:h-[500px] bg-cover bg-center relative"
                 style={{
                   backgroundImage: "url(https://i.imgur.com/oECLqVZ.png)",
                 }}
               >
-                <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/60 to-transparent" />
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-2xl md:text-3xl font-bold gradient-heading mb-1">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 p-4 md:p-6">
+                  <h3 className="text-xl md:text-2xl font-bold gradient-heading mb-1 leading-tight">
                     UNIDADE 2: ITAPUÃ
                   </h3>
-                  <p className="text-white/70 text-xs mb-3 font-medium">
+                  <p className="text-white/70 text-xs mb-2 font-medium">
                     Rua Goiana
                   </p>
-                  <p className="text-white text-sm md:text-base mb-4 font-semibold">
+                  <p className="text-white text-xs md:text-sm mb-3 font-semibold">
                     Estilo e Sofisticação.
                   </p>
                   
-                  <div className="bg-black/40 backdrop-blur-sm rounded-lg p-3 mb-4 space-y-2.5 border border-primary/20">
-                    <div className="flex items-center text-sm text-white">
-                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center mr-3 flex-shrink-0">
-                        <MapPin className="w-4 h-4 text-primary" />
+                  <div className="bg-black/50 backdrop-blur-sm rounded-lg p-2.5 md:p-3 mb-3 space-y-2 border border-primary/20">
+                    <div className="flex items-center text-xs md:text-sm text-white">
+                      <div className="w-7 h-7 rounded-full bg-primary/20 flex items-center justify-center mr-2 flex-shrink-0">
+                        <MapPin className="w-3.5 h-3.5 text-primary" />
                       </div>
                       <span className="font-medium">Rua Goiânia, 234 - Itapuã, Vila Velha</span>
                     </div>
-                    <div className="flex items-center text-sm text-white">
-                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center mr-3 flex-shrink-0">
-                        <Phone className="w-4 h-4 text-primary" />
+                    <div className="flex items-center text-xs md:text-sm text-white">
+                      <div className="w-7 h-7 rounded-full bg-primary/20 flex items-center justify-center mr-2 flex-shrink-0">
+                        <Phone className="w-3.5 h-3.5 text-primary" />
                       </div>
                       <span className="font-medium">(27) 99628-4485</span>
                     </div>
-                    <div className="flex items-center text-sm text-white">
-                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center mr-3 flex-shrink-0">
-                        <Clock className="w-4 h-4 text-primary" />
+                    <div className="flex items-center text-xs md:text-sm text-white">
+                      <div className="w-7 h-7 rounded-full bg-primary/20 flex items-center justify-center mr-2 flex-shrink-0">
+                        <Clock className="w-3.5 h-3.5 text-primary" />
                       </div>
                       <span className="font-medium">Seg-Sáb: 09-19h | Dom: Fechado</span>
                     </div>
@@ -120,9 +120,9 @@ const Index = () => {
 
                   <Button
                     asChild
-                    className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-base font-semibold"
+                    className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-sm md:text-base font-semibold"
                   >
-                    <Link to="/unidade-2">Ver Serviços e Equipe</Link>
+                    <Link to="/unidade-2">Agendar Horário</Link>
                   </Button>
                 </div>
               </div>
@@ -131,39 +131,39 @@ const Index = () => {
             {/* Unit 3 */}
             <Card className="bg-card border-border overflow-hidden hover-lift group">
               <div
-                className="h-80 bg-cover bg-facade relative"
+                className="h-[450px] md:h-[500px] bg-cover bg-center relative"
                 style={{
                   backgroundImage: "url(https://i.imgur.com/RaIsp9r.png)",
                 }}
               >
-                <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/60 to-transparent" />
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-2xl md:text-3xl font-bold gradient-heading mb-1">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 p-4 md:p-6">
+                  <h3 className="text-xl md:text-2xl font-bold gradient-heading mb-1 leading-tight">
                     UNIDADE 3: ITAPARICA
                   </h3>
-                  <p className="text-white/70 text-xs mb-3 font-medium">
+                  <p className="text-white/70 text-xs mb-2 font-medium">
                     Av. Muqui
                   </p>
-                  <p className="text-white text-sm md:text-base mb-4 font-semibold">
+                  <p className="text-white text-xs md:text-sm mb-3 font-semibold">
                     Excelência e Tradição.
                   </p>
                   
-                  <div className="bg-black/40 backdrop-blur-sm rounded-lg p-3 mb-4 space-y-2.5 border border-primary/20">
-                    <div className="flex items-center text-sm text-white">
-                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center mr-3 flex-shrink-0">
-                        <MapPin className="w-4 h-4 text-primary" />
+                  <div className="bg-black/50 backdrop-blur-sm rounded-lg p-2.5 md:p-3 mb-3 space-y-2 border border-primary/20">
+                    <div className="flex items-center text-xs md:text-sm text-white">
+                      <div className="w-7 h-7 rounded-full bg-primary/20 flex items-center justify-center mr-2 flex-shrink-0">
+                        <MapPin className="w-3.5 h-3.5 text-primary" />
                       </div>
                       <span className="font-medium">Avenida Muqui, 805 - Itaparica, Vila Velha</span>
                     </div>
-                    <div className="flex items-center text-sm text-white">
-                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center mr-3 flex-shrink-0">
-                        <Phone className="w-4 h-4 text-primary" />
+                    <div className="flex items-center text-xs md:text-sm text-white">
+                      <div className="w-7 h-7 rounded-full bg-primary/20 flex items-center justify-center mr-2 flex-shrink-0">
+                        <Phone className="w-3.5 h-3.5 text-primary" />
                       </div>
                       <span className="font-medium">(27) 99628-4485</span>
                     </div>
-                    <div className="flex items-center text-sm text-white">
-                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center mr-3 flex-shrink-0">
-                        <Clock className="w-4 h-4 text-primary" />
+                    <div className="flex items-center text-xs md:text-sm text-white">
+                      <div className="w-7 h-7 rounded-full bg-primary/20 flex items-center justify-center mr-2 flex-shrink-0">
+                        <Clock className="w-3.5 h-3.5 text-primary" />
                       </div>
                       <span className="font-medium">Seg-Sáb: 09-19h | Dom: Fechado</span>
                     </div>
@@ -171,9 +171,9 @@ const Index = () => {
 
                   <Button
                     asChild
-                    className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-base font-semibold"
+                    className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-sm md:text-base font-semibold"
                   >
-                    <Link to="/unidade-3">Ver Serviços e Equipe</Link>
+                    <Link to="/unidade-3">Agendar Horário</Link>
                   </Button>
                 </div>
               </div>
