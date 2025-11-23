@@ -188,13 +188,13 @@ const Unit2 = () => {
 
             <Card className="bg-card border-border overflow-hidden h-64 md:h-auto">
               <iframe
-                src="https://maps.google.com/maps?daddr=Rua%20Goi%C3%A2nia,%20234,%20Loja%204%20rua%20do%20bar%20dos%20meninos%20,%20Itapu%C3%A3,%20Vila%20Velha,%20ES%20-%2029101-780&output=embed"
+                src="https://www.google.com/maps/embed?pb=!4v1732377600!6m8!1m7!1s6xyOGAsBzFosVeakUflsXg!2m2!1d-20.3506904!2d-40.2851735!3f285.09!4f10.74!5f0.7899999999999999"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
-                title="Localização Unidade 2"
+                title="Localização Unidade 2 - Street View"
               ></iframe>
             </Card>
           </div>
