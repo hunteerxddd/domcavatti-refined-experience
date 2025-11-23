@@ -63,7 +63,7 @@ const Index = () => {
                       <div className="w-7 h-7 rounded-full bg-primary/20 flex items-center justify-center mr-2 flex-shrink-0">
                         <Clock className="w-3.5 h-3.5 text-primary" />
                       </div>
-                      <span className="font-medium">Seg-Sáb: 09-19h | Dom: Fechado</span>
+                      <span className="font-medium">Ter-Sex: 09-20h | Sáb: 09-18h</span>
                     </div>
                   </div>
 
@@ -108,13 +108,13 @@ const Index = () => {
                       <div className="w-7 h-7 rounded-full bg-primary/20 flex items-center justify-center mr-2 flex-shrink-0">
                         <Phone className="w-3.5 h-3.5 text-primary" />
                       </div>
-                      <span className="font-medium">(27) 99628-4485</span>
+                      <span className="font-medium">(27) 99809-4004</span>
                     </div>
                     <div className="flex items-center text-xs md:text-sm text-white">
                       <div className="w-7 h-7 rounded-full bg-primary/20 flex items-center justify-center mr-2 flex-shrink-0">
                         <Clock className="w-3.5 h-3.5 text-primary" />
                       </div>
-                      <span className="font-medium">Seg-Sáb: 09-19h | Dom: Fechado</span>
+                      <span className="font-medium">Ter-Sex: 09-20h | Sáb: 09-18h</span>
                     </div>
                   </div>
 
@@ -159,13 +159,13 @@ const Index = () => {
                       <div className="w-7 h-7 rounded-full bg-primary/20 flex items-center justify-center mr-2 flex-shrink-0">
                         <Phone className="w-3.5 h-3.5 text-primary" />
                       </div>
-                      <span className="font-medium">(27) 99628-4485</span>
+                      <span className="font-medium">(27) 99800-0880</span>
                     </div>
                     <div className="flex items-center text-xs md:text-sm text-white">
                       <div className="w-7 h-7 rounded-full bg-primary/20 flex items-center justify-center mr-2 flex-shrink-0">
                         <Clock className="w-3.5 h-3.5 text-primary" />
                       </div>
-                      <span className="font-medium">Seg-Sáb: 09-19h | Dom: Fechado</span>
+                      <span className="font-medium">Seg-Sex: 09-20h | Sáb: 09-18h</span>
                     </div>
                   </div>
 
