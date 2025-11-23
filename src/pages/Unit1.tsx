@@ -110,8 +110,9 @@ const Unit1 = () => {
                       🕒 Horário de Funcionamento
                     </h3>
                     <p className="text-muted-foreground text-sm leading-relaxed">
-                      Segunda a Sábado: 9h - 19h<br />
-                      Domingo: Fechado
+                      Terça a Sexta: 09:00 às 20:00<br />
+                      Sábado: 09:00 às 18:00<br />
+                      Domingo e Segunda: Fechado
                     </p>
                   </div>
                 </div>

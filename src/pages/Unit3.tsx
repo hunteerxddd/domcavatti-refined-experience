@@ -75,10 +75,10 @@ const Unit3 = () => {
                       📞 Telefone
                     </h3>
                     <a 
-                      href="tel:+5527996284485"
+                      href="tel:+5527998000880"
                       className="text-muted-foreground hover:text-primary transition-colors text-sm"
                     >
-                      (27) 99628-4485
+                      (27) 99800-0880
                     </a>
                   </div>
                 </div>
@@ -93,7 +93,8 @@ const Unit3 = () => {
                       🕒 Horário de Funcionamento
                     </h3>
                     <p className="text-muted-foreground text-sm leading-relaxed">
-                      Segunda a Sábado: 9h - 19h<br />
+                      Segunda a Sexta: 09:00 às 20:00<br />
+                      Sábado: 09:00 às 18:00<br />
                       Domingo: Fechado
                     </p>
                   </div>
