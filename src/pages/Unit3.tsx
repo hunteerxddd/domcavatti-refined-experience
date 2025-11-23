@@ -18,19 +18,22 @@ const Unit3 = () => {
           <p className="text-xl md:text-2xl text-muted-foreground mb-12">
             Excelência e Tradição
           </p>
-          <Button
-            asChild
-            size="lg"
-            className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 hover:scale-105 transition-transform text-xl px-12 py-6 h-auto shadow-lg shadow-primary/20"
-          >
-            <a
-              href="https://www.trinks.com/dom-cavatti-3"
-              target="_blank"
-              rel="noopener noreferrer"
+          <div className="flex justify-center">
+            <Button
+              asChild
+              size="lg"
+              className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 hover:scale-105 transition-transform text-lg md:text-xl px-8 md:px-12 py-5 md:py-6 h-auto shadow-lg shadow-primary/20 w-full max-w-md"
             >
-              Agendar na Unidade 3
-            </a>
-          </Button>
+              <a
+                href="https://www.trinks.com/dom-cavatti-3"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-center"
+              >
+                Agendar na Unidade 3
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
 
