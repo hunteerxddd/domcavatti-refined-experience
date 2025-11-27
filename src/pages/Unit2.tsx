@@ -75,7 +75,9 @@ const Unit2 = () => {
                       📞 Telefone
                     </h3>
                     <a 
-                      href="tel:+5527998094004"
+                      href="https://wa.me/5527998094004"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-muted-foreground hover:text-primary transition-colors text-sm"
                     >
                       (27) 99809-4004
