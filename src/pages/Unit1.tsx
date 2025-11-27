@@ -92,7 +92,9 @@ const Unit1 = () => {
                       📞 Telefone
                     </h3>
                     <a 
-                      href="tel:+5527996284485"
+                      href="https://wa.me/5527996284485"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-muted-foreground hover:text-primary transition-colors text-sm"
                     >
                       (27) 99628-4485

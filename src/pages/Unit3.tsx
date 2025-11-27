@@ -75,7 +75,9 @@ const Unit3 = () => {
                       📞 Telefone
                     </h3>
                     <a 
-                      href="tel:+5527998000880"
+                      href="https://wa.me/5527998000880"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-muted-foreground hover:text-primary transition-colors text-sm"
                     >
                       (27) 99800-0880
