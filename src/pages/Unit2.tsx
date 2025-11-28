@@ -2,7 +2,8 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { MapPin, Clock, Phone } from "lucide-react";
+import { MapPin, Clock } from "lucide-react";
+import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
 
 const Unit2 = () => {
   return (
@@ -65,14 +66,14 @@ const Unit2 = () => {
                   </div>
                 </div>
 
-                {/* Telefone */}
+                {/* WhatsApp */}
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
-                    <Phone className="w-5 h-5 text-primary" />
+                    <WhatsAppIcon className="w-5 h-5 text-primary" />
                   </div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-foreground mb-1 text-sm md:text-base">
-                      📞 Telefone
+                      Agendar por WhatsApp
                     </h3>
                     <a 
                       href="https://wa.me/5527998094004"
